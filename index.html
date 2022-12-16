@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortHomepage</title>
+</head>
+<style>
+    body{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(135deg, #000000, #2b0d4d9c);
+    }
+    .home{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 50vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: black;
+        box-shadow: 2px 2px 4px;
+    }
+    .home:hover{
+        background: #003cff27;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .skill{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 40vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: #000000;
+        box-shadow: 2px 2px 4px;
+    }
+    .skill:hover{
+        background: #003cff3f;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .Cservice{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 30vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: rgb(0, 0, 0);
+    }
+    .Cservice:hover{
+        background: #003cff3f;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .about{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 20vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: rgb(0, 0, 0);
+    }
+    .about:hover{
+        background: #003cff3f;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .fadepic img{
+        position: relative;
+        height: 50%;
+        width: 40%;
+        top: 30%;
+        left: 10px;
+        box-shadow: 4px 4px 8px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border: solid transparent;
+    }
+    @keyframes fadingpic { /* flame pulses */
+  0%   { opacity:1; }
+  50%  { opacity:0.2; }
+  100% { opacity:1; }
+}
+.fadepic img{
+    opacity:1;  
+    animation: fadingpic 10s infinite;
+}
+    .r1con{
+        position: absolute;
+        height: 70vh;
+        width: 50vw;
+        background: #00259e3f;
+        right: 50px;    
+        bottom: 10px;
+        box-shadow: 2px 2px 4px;
+        color: antiquewhite;
+        padding-left: 10px;
+    }
+</style>
+<body>
+    <a href="index.html"><div class="home"><h1>Home</h1></div></a>
+    <a href="skill.html"><div class="skill"><h1>Skills</h1></div></a>
+    <a href="contact.html"><div class="Cservice"><h3>Contact <br>Service</h3></div></a>
+    <a href="about.html"><div class="about"><h1>About</h1></div></a>
+    <div class="fadepic"><img src="DProfile.jpg"></div>
+    <div class="r1con"><h2>Welcome to my web, I am Zaldy C. Siago Jr. BSIT-2C <br>
+    at  Eastern Visayas State University(EVSU) at your service.<br> How can I help you?</h2></div>
+</body>
+</html>

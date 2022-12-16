@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+</head>
+<style>
+    body{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(135deg, #000000, #2b0d4d9c);
+    }
+    .lmageA img{
+        position: absolute;
+        height: 80vh;
+        width: 25vw;
+        left: 30px;
+        bottom: 10px;
+        box-shadow: 2px 2px 4px;
+        border: solid transparent;
+    }
+    .home{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 50vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: black;
+        box-shadow: 2px 2px 4px;
+    }
+    .home:hover{
+        background: #003cff27;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .skill{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 40vw;
+        background: #003cff3f;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+        box-shadow: 2px 2px 4px;
+    }
+    .Cservice{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 30vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: #000000;
+    }
+    .Cservice:hover{
+        background: #003cff3f;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .about{
+        position: absolute;
+        height: 40px;
+        width: auto;
+        top: 30px;
+        right: 20vw;
+        background: #d5a5fc;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid 2px #d5a5fc;
+        color: #000000;
+    }
+    .about:hover{
+        background: #003cff3f;
+        border: solid 2px #d5a5fc;
+        color: #d5a5fc;
+    }
+    .contain{
+        position: absolute;
+        height: 80vh;
+        width: 60vw;
+        background: #00259e3f;
+        right: 50px;    
+        bottom: 10px;
+        box-shadow: 2px 2px 4px;
+    }
+    .mys{
+        position: absolute;
+        top: 10px;
+        left: 42%;
+        color: skyblue;
+    }
+    .htmlA{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(180deg, #ebe2f569, #0f0f33);
+        border-radius: 20%;
+        top: 95px;
+        left: 20px;
+    }
+    .css{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(180deg, #ebe2f569, #0f0f33);
+        border-radius: 20%;
+        top: 155px;
+        left: 20px;     
+    }
+    .js{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(180deg, #ebe2f569, #0f0f33);
+        border-radius: 20%;
+        top: 215px;
+        left: 20px;
+    }
+    .php{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(180deg, #ebe2f569, #0f0f33);
+        border-radius: 20%;
+        top: 275px;
+        left: 20px;
+    }
+    .sql{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(180deg, #ebe2f569, #0f0f33);
+        border-radius: 20%;
+        top: 335px;
+        left: 20px;
+    }
+    .python{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background: linear-gradient(180deg, #ebe2f569, #0f0f33);
+        border-radius: 20%;
+        top: 395px;
+        left: 20px;
+    }
+    .htmlA img, .css img, .js img, .php img, .sql img, .python img{
+        height: 50px;
+        width: 50px;
+    }
+    .hp{
+        position: absolute;
+        height: 30px;
+        width: 400px;
+        background: linear-gradient(180deg, #e92020, #c21859de);
+        top: 100px;
+        left: 100px;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+       animation: hpower 2s;
+    }
+    @keyframes hpower{ /* flame pulses */
+  0%   { width: 0px; }
+  100% { width: 400px; }
+   }
+    .cp{
+        position: absolute;
+        height: 30px;
+        width: 500px;
+        background: linear-gradient(180deg, #e92020, #c21859de);
+        top: 160px;
+        left: 100px;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+       animation: cpower 2s;
+    }
+    @keyframes cpower{ /* flame pulses */
+       0%   { width: 0px; }
+      100% { width: 500px; }
+    }
+    .jp{
+        position: absolute;
+        height: 30px;
+        width: 300px;
+        background: linear-gradient(180deg, #e92020, #c21859de);
+        top: 220px;
+        left: 100px;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+       animation: jpower 2s;
+    }
+    @keyframes jpower{
+       0%   { width: 0px; }
+       100% { width: 300px; }
+   }
+   .pp{
+        position: absolute;
+        height: 30px;
+        width: 345px;
+        background: linear-gradient(180deg, #e92020, #c21859de);
+        top: 280px;
+        left: 100px;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+       animation: ppower 2s;
+    }
+    @keyframes ppower{
+       0%   { width: 0px; }
+       100% { width: 345px; }
+   }
+   .sp{
+        position: absolute;
+        height: 30px;
+        width: 210px;
+        background: linear-gradient(180deg, #e92020, #c21859de);
+        top: 340px;
+        left: 100px;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+       animation: spower 2s;
+    }
+    @keyframes spower{
+       0%   { width: 0px; }
+       100% { width: 210px; }
+   }
+   .pyp{
+        position: absolute;
+        height: 30px;
+        width: 300px;
+        background: linear-gradient(180deg, #e92020, #c21859de);
+        top: 400px;
+        left: 100px;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+       animation: pypower 2s;
+    }
+    @keyframes pypower{
+       0%   { width: 0px; }
+       100% { width: 300px; }
+   }
+</style>
+<body>
+    <div class="lmageA"><img src="Untitled8_20210619182331.png"></div>
+    <a href="index.html"><div class="home"><h1>Home</h1></div></a>
+    <a href="skill.html"><div class="skill"><h1>Skills</h1></div></a>
+    <a href="contact.html"><div class="Cservice"><h3>Contact <br>Service</h3></div></a>
+    <a href="about.html"><div class="about"><h1>About</h1></div></a>
+  <div class="contain">
+    <div class="mys"><h1>My Skills</h1></div>
+    <div class="htmlA"><img src="htmllogo.png"></div>
+    <div class="css"><img src="css3logo.png"></div>
+    <div class="js"><img src="jslogo.png"></div>
+    <div class="php"><img src="php.png"></div>
+    <div class="sql"><img src="mysql.png"></div>
+    <div class="python"><img src="pythonA3.png"></div>
+
+    <div class="hp"></div>
+    <div class="cp"></div>
+    <div class="jp"></div>
+    <div class="pp"></div>
+    <div class="sp"></div>
+    <div class="pyp"></div>
+  </div>
+</body>
+</html>
